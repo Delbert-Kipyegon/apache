@@ -1,12 +1,12 @@
 /**
- * Recursive implementation:
+ * Recursive implementation
  * 
- * Advantages:
- * Simplicity: The recursive method is a direct translation of the problem statement.
+ * Advantages
+ * 1. Simplicity: The recursive method is a direct translation of the problem statement.
  * 
- * Disadvantages:
- * Inefficiency: The recursive implementation recalculates the same subproblems over and over again.
- * Stack overflow: For large inputs, this approach may lead to stack overflow due to many recursive calls.
+ * Disadvantages
+ * 1. Inefficiency: The recursive implementation recalculates the same subproblems over and over again.
+ * 2. Stack overflow: For large inputs, this approach may lead to stack overflow due to many recursive calls.
  * 
  * **/
 
