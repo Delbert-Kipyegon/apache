@@ -25,14 +25,14 @@ int F_recursive(int n)
 }
 
 /**
- * Memoization/Dynamic Programming:
+ * Memoization/Dynamic Programming
  * 
- * Advantages:
+ * Advantages
  * Efficiency: The DP method remembers results of subproblems to avoid unnecessary recalculation.
  * Avoiding stack overflow: As each subproblem is calculated only once, 
  * this approach avoids the stack overflow issue present in the simple recursive approach.
  * 
- * Disadvantages:
+ * Disadvantages
  * Space trade-off: The memoization approach uses extra space to store the results of subproblems.
  * **/
 
@@ -66,11 +66,11 @@ int F_dp(int n)
 /**
  * Iterative Bottom-Up approach implementation
  * 
- * Advantages:
+ * Advantages
  * Efficiency: Like the DP method, the iterative method calculates each subproblem only once.
  * No extra space: Unlike the DP method, the iterative method does not need extra space proportional to n. 
  * Only a constant amount of space is needed.
- * Disadvantages:
+ * Disadvantages
  * Less intuitive: The iterative method can be less intuitive to implement than the recursive and DP methods.
  */
 
